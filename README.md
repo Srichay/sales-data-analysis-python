@@ -2,9 +2,19 @@
 
 ## Project Overview
 
-This project analyzes a sales dataset using Python, Pandas, NumPy, Matplotlib and SQL.
+This project performs end-to-end sales data analysis using Python, Pandas, NumPy, Matplotlib and SQL.
 
-The objective is to identify sales trends, product performance, city performance, profitability and important business insights.
+The analysis focuses on understanding revenue, profit, product performance, city performance and sales trends to generate useful business insights.
+
+## Objectives
+
+- Analyze overall sales performance
+- Identify high-performing products
+- Compare revenue across cities
+- Analyze product categories
+- Calculate total revenue and profit
+- Analyze monthly sales trends
+- Generate visual insights from the data
 
 ## Technologies Used
 
@@ -14,6 +24,22 @@ The objective is to identify sales trends, product performance, city performance
 - Matplotlib
 - SQL
 - Google Colab
+
+## Dataset
+
+The dataset contains 1,000 sales transactions from 2025.
+
+### Columns
+
+- Order_ID
+- Date
+- Product
+- City
+- Quantity
+- Unit_Price
+- Category
+- Revenue
+- Profit
 
 ## Analysis Performed
 
@@ -28,35 +54,61 @@ The objective is to identify sales trends, product performance, city performance
 - Business insights
 - SQL business queries
 
-## Dataset
+## Visualizations
 
-The dataset contains 1,000 sales transactions from 2025.
+### Revenue by City
 
-Columns include:
+![Revenue by City](city_revenue.png)
 
-- Order_ID
-- Date
-- Product
-- City
-- Quantity
-- Unit_Price
-- Category
-- Revenue
-- Profit
+### Revenue by Product
 
-## Project Structure
+![Revenue by Product](product_revenue.png)
 
-sales-data-analysis-python/
+## SQL Analysis
 
-- data/
-- notebooks/
-- sql/
-- README.md
-- requirements.txt
-- .gitignore
+SQL queries were created for:
+
+- Total Revenue
+- Total Profit
+- Revenue by Product
+- Revenue by City
+- Revenue by Category
+- Top 5 Products
+- Monthly Revenue
+
+See `analysis_queries.sql`.
+
+## Project Files
+
+- `Sales_Data_Analysis.ipynb` — Python analysis notebook
+- `sales_data_final.csv` — Sales dataset
+- `analysis_queries.sql` — SQL queries
+- `city_revenue.png` — City revenue visualization
+- `product_revenue.png` — Product revenue visualization
+- `requirements.txt` — Python dependencies
+
+## How to Run
+
+1. Download or clone this repository.
+2. Open `Sales_Data_Analysis.ipynb` in Google Colab or Jupyter Notebook.
+3. Install the required libraries from `requirements.txt`.
+4. Run the notebook cells sequentially.
+
+## Key Skills Demonstrated
+
+- Python
+- Pandas
+- NumPy
+- SQL
+- Data Cleaning
+- Exploratory Data Analysis
+- Data Aggregation
+- Data Visualization
+- Business Analysis
+- Matplotlib
 
 ## Author
 
-Sri Chaithanya
+**Sri Chaithanya**
 
 Data Analytics Portfolio Project
